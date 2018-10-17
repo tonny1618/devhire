@@ -1,0 +1,42 @@
+.navbar-default {
+    background-color: #5C5757;
+}
+.navbar-nav{
+    margin-top: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:white;
+    border-bottom: 2px solid white;
+}
+
+.navbar-left img {
+    width:70%;
+    margin-top: -100px
+}
+
+.navbar-right{
+    margin-top: 10px;
+}
+
+.form-control-borderless {
+
+   border: none;
+
+}
+
+
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+
+   border: none;
+
+   outline: none;
+
+   box-shadow: none;
+
+}
