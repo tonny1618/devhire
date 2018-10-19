@@ -1,42 +1,160 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header .navbar {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #4a4a4a;
+  padding-bottom: 20px;
+}
+
 .navbar-default {
-    background-color: #5C5757;
+  background-color: #5C5757;
 }
 .navbar-nav{
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-size: 20px;
+  font-size: 20px;
+  color: #b5b5b5;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color:white;
-    border-bottom: 2px solid white;
+  color:white;
+  border-bottom: 2px solid white;
 }
 
 .navbar-left img {
-    width:70%;
-    margin-top: -100px
+  width:70%;
+  margin-top: -100px
 }
 
 .navbar-right{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.form-control-borderless {
+/*Search Bar*/
 
-   border: none;
+.navbar-form .input-group{
+  width: 100%;
+}
 
+.inputsearch {
+  height: 60px;
 }
 
 
+#blocksearchbar {
+  height: 200px;
+  background-image: linear-gradient(to bottom, #5c5757, #905d58, #bd644f, #e26f39, #ff8100);    padding-top: 5%;
+  margin-top: -20px;
+  padding-left: 3%;
+  border-bottom: 2px solid #4a4a4a;
+}
 
-.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+#ville {
+  margin-left: -59px;
+}
 
-   border: none;
+#boutonRecherche {
+  margin-left: 2px;
+  height: 60px;
+  border-radius: 0;
+}
 
-   outline: none;
+#ville .inputsearch {
+  border-radius: 0;
+}
 
-   box-shadow: none;
+
+/*Bloc Dernières Annonces */
+#dernieresAnnonces {
+  height: 325px;
+  background-color: #FF8100;
+}
+
+#dernieresAnnonces  h2 {
+  text-align: center;
+  color: #fdeeee;
+  height: 50px;
+}
+
+#dernieresAnnonces  a {
+  color: #3a3a3a;
+}
+
+#dernieresAnnonces  a:hover {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.blocannonce {
+      border-bottom: 1px solid #bd6408;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 5px 5px 0px rgb(218, 114, 8);
+    height: 180px;
+    background: white;
+    color: #353535;
+}
+
+#dernieresAnnonces {
+  color: white;
+}
+
+
+.blocannonce h4 {
+  font-weight: bold;
+}
+
+/*Bloc Envoyer*/
+#envoyer {
+  height: 250px;
+  border-top: 2px solid #4a4a4a;
+  border-bottom: 2px solid #4a4a4a;
+  background-image: linear-gradient(to top, #2b2a2a, #663a36, #9e4b38, #d2622e, #ff8100);
+}
+.boutonCV {
+  padding-top: 8%;
+  padding-left: 16%;
+}
+
+.boutonDeposer {
+  padding-top: 8%;
+  padding-left: 15%;
 
 }
+
+.btn-secondary:before {
+  background: #787a7c;
+  color: white;
+}
+
+.hvr-bounce-to-right:before {
+  background: #ffae00;
+}
+
+footer {
+  height: 200px;
+  background-color: #2b2a2a;
+}
+
+footer h2 {
+  color: #b9b9b9;
+}
+
+footer a {
+  color: #bf6202;
+}
+
+footer a:hover {
+  color: #bf3703;
+  font-style: italic;
+  text-decoration: none;
+}
+footer p { 
+  color: #bbbbbb;
+ }
