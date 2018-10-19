@@ -32,7 +32,7 @@
 
     </nav>
   </header>
-
+  
   <form>
     <legend>Inscription Entreprise</legend>
     <div class="form-group col-sm-6">
