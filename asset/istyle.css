@@ -40,3 +40,14 @@
    box-shadow: none;
 
 }
+
+#inscription{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+legend{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom : 5%;
+}
