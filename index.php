@@ -51,6 +51,8 @@
             </form>
          </div>
       </div>
+      <div id="blocavecimages">
+      
       <div id="dernieresAnnonces" class="container-fluid">
          <h2>Dernières Annonces</h2>
          <div class="col-md-3 blocannonce">
@@ -85,7 +87,8 @@
         <button type="button" class="btn btn-secondary btn-lg hvr-bounce-to-right">Déposer votre annonce</button>
       </div>
     </div>
-
+  </div>
+  
     <footer class="container-fluid">
   <div class="row">
     <div class="col-md-5">
