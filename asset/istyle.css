@@ -174,4 +174,15 @@ footer a:hover {
 footer p { 
   color: #bbbbbb;
  }
->>>>>>> 4192e148bc606b0cb0d7d187951144fce93a3857
+
+/*page documents candidat*/
+.bvn-candidat {
+  font-size:20px;
+  padding-left: 50%;
+}
+
+.doc-candidat {
+}
+
+.contrats {
+}
