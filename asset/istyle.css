@@ -184,3 +184,13 @@ footer p {
 
 .contrats {
 }
+
+/*espace client*/
+#boutonRecherche2 {
+  margin-left: 95%;
+  height: 60px;
+  border-radius: 0;
+}
+.navbarform2 {
+
+}
