@@ -69,9 +69,6 @@ header .navbar {
 }
 
 
-<<<<<<< HEAD
-}
-
 #inscription{
   margin-top: 5%;
   margin-bottom: 10%;
@@ -82,17 +79,28 @@ legend{
   margin-top: 5%;
   margin-bottom : 5%;
 }
-=======
-/*Bloc Dernières Annonces */
-#dernieresAnnonces {
-  height: 325px;
-  background-color: #FF8100;
+/*Bloc avec Images*/
+#blocavecimages {
+  background-image: url('images/network-3683761_1920.jpg');
 }
 
+/*Bloc Dernières Annonces */
+
+#dernieresAnnonces {
+  height: 325px;
+  
+}
 #dernieresAnnonces  h2 {
   text-align: center;
-  color: #fdeeee;
-  height: 50px;
+    color: #4e4e4e;
+    height: 50px;
+    background: #ffffffa6;
+    padding-top: 10px;
+    margin-top: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 5%;
 }
 
 #dernieresAnnonces  a {
@@ -105,20 +113,14 @@ legend{
 }
 
 .blocannonce {
-      border-bottom: 1px solid #bd6408;
     border-radius: 5px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    /*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 7px 5px 5px 0px rgb(218, 114, 8);
+    box-shadow: 7px 5px 5px 0px rgb(218, 114, 8);*/
     height: 180px;
     background: white;
     color: #353535;
 }
-
-#dernieresAnnonces {
-  color: white;
-}
-
 
 .blocannonce h4 {
   font-weight: bold;
@@ -127,9 +129,9 @@ legend{
 /*Bloc Envoyer*/
 #envoyer {
   height: 250px;
-  border-top: 2px solid #4a4a4a;
+  /*border-top: 2px solid #4a4a4a;*/
   border-bottom: 2px solid #4a4a4a;
-  background-image: linear-gradient(to top, #2b2a2a, #663a36, #9e4b38, #d2622e, #ff8100);
+  /* background-image: linear-gradient(to top, #2b2a2a, #663a36, #9e4b38, #d2622e, #ff8100); */
 }
 .boutonCV {
   padding-top: 8%;
