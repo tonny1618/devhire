@@ -69,9 +69,6 @@ header .navbar {
 }
 
 
-<<<<<<< HEAD
-}
-
 #inscription{
   margin-top: 5%;
   margin-bottom: 10%;
@@ -82,13 +79,13 @@ legend{
   margin-top: 5%;
   margin-bottom : 5%;
 }
-=======
+
 /*Bloc Dernières Annonces */
+
 #dernieresAnnonces {
   height: 325px;
   background-color: #FF8100;
 }
-
 #dernieresAnnonces  h2 {
   text-align: center;
   color: #fdeeee;
@@ -114,11 +111,6 @@ legend{
     background: white;
     color: #353535;
 }
-
-#dernieresAnnonces {
-  color: white;
-}
-
 
 .blocannonce h4 {
   font-weight: bold;
