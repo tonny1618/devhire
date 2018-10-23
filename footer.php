@@ -11,15 +11,4 @@
     <p class="text-center"> © Dev'Hire</p>
   </div>
     </footer>
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-
-$("#").click(function () {
-  $("#nouvellediv").append('#blocexperience');
-});
-
-$("add").click(function(){
-    $("p").append("<b>Appended text</b>");
-});
+<script type="text/javascript" src="asset/js/script.js"></script>

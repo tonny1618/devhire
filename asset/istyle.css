@@ -215,6 +215,10 @@ color: white;
 }
 
 
+#add {
+  cursor: pointer;
+}
+
 /*espace client*/
 #boutonRecherche2 {
   margin-left: 95%;
