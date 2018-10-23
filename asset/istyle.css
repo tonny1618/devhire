@@ -37,11 +37,11 @@ header .navbar {
 
 /*Search Bar*/
 
-.navbar-form .input-group{
+#blocksearchbar .navbar-form .input-group{
   width: 100%;
 }
 
-.inputsearch {
+#blocksearchbar .inputsearch {
   height: 60px;
 }
 
@@ -53,12 +53,12 @@ header .navbar {
   padding-left: 3%;
   border-bottom: 2px solid #4a4a4a;
 }
-
+/*
 #ville {
   margin-left: -59px;
 }
-
-#boutonRecherche {
+*/
+#blocksearchbar #boutonRecherche {
   margin-left: 2px;
   height: 60px;
   border-radius: 0;
@@ -82,6 +82,7 @@ legend{
 /*Bloc avec Images*/
 #blocavecimages {
   background-image: url('images/network-3683761_1920.jpg');
+  background-size: contain;
 }
 
 /*Bloc Dernières Annonces */
@@ -103,6 +104,12 @@ legend{
     margin-bottom: 5%;
 }
 
+@media screen and (max-width: 640px) {
+  #dernieresAnnonces  h2 {
+   font-size: 25px; 
+  }
+}
+
 #dernieresAnnonces  a {
   color: #3a3a3a;
 }
@@ -117,7 +124,7 @@ legend{
     /*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 7px 5px 5px 0px rgb(218, 114, 8);*/
-    height: 180px;
+    max-height: 180px;
     background: white;
     color: #353535;
 }
@@ -132,6 +139,11 @@ legend{
   /*border-top: 2px solid #4a4a4a;*/
   border-bottom: 2px solid #4a4a4a;
   /* background-image: linear-gradient(to top, #2b2a2a, #663a36, #9e4b38, #d2622e, #ff8100); */
+}
+@media screen and (max-width: 768px) {
+  #envoyer {
+    margin-top: 25%
+  }
 }
 .boutonCV {
   padding-top: 8%;
@@ -185,4 +197,13 @@ footer p {
 }
 
 .contrats {
+}
+
+/*Formulaire CV */
+#formulairecv {
+background: rgb(48,49,50);
+background: -moz-linear-gradient(45deg, rgba(48,49,50,1) 0%, rgba(237,87,0,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(48,49,50,1) 0%, rgba(237,87,0,1) 100%);
+background: linear-gradient(45deg, rgba(48,49,50,1) 0%, rgba(237,87,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303132",endColorstr="#ed5700",GradientType=1);
 }
