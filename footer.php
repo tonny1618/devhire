@@ -12,3 +12,4 @@
   </div>
     </footer>
 <script type="text/javascript" src="asset/js/script.js"></script>
+<script src="asset/js/formulairecv.js"></script>
