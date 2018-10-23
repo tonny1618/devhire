@@ -80,7 +80,7 @@
 			<div class="col-md-12 col-md-offset-11" > 
 				<span id="add" class="glyphicon glyphicon-plus " data-toggle="tooltip" data-placement="top" title="Ajouter nouvelle expérience" ></span>
 			</div>
-		<div id="blocexperience" class="form-group col-md-6 col-md-offset-3">
+		<div class="form-group col-md-6 col-md-offset-3">
 			<div class="col-md-4">
 				<label>De : </label>
 				<input class="form-control" type="date"  name="">
@@ -96,9 +96,8 @@
 				<label>Détaillez votre expérience : </label><textarea class="form-control" rows="8"	 id="comment"></textarea>
 			</div>
 		</div>
+		<div id="blocexperience"></div>
 	</div>
-
-	<div id="nouvellediv"></div>
 		<div class="col-md-12">
 			<legend>Identifiants : </legend>
 			<div class="col-md-3">
