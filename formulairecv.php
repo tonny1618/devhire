@@ -2,30 +2,30 @@
 <?php require("navbar.php")?>
 <div class="container-fluid" id="formulairecv">
 	<h2>Créer votre CV</h2>
-	<form>
+	<form onsubmit="return foncverif()"">
 		<div class="form-group col-sm-6">
 			<label class="control-label col-sm-2" for="prenom">Prenom : </label>
-			<input  class="form-control" type="text" value="" name="" autocomplete="on">
+			<input  class="form-control" type="text" value="" name="" autocomplete="on" id="champPrenom">
 		</div>
 		<div class="form-group col-sm-6">
 			<label class="control-label col-sm-2" for="nom">Nom : </label>
-			<input  class="form-control" type="text" value="" name="" autocomplete="on">
+			<input  class="form-control" type="text" value="" name="" autocomplete="on" id="champNom">
 		</div>
 		<div class="form-group  col-sm-6">
 			<label class="control-label col-sm-2" for="adresse">Adresse : </label>
-			<input  class="form-control" type="text" value="" name="" autocomplete="on">
+			<input  class="form-control" type="text" value="" name="" autocomplete="on" id="champAdresse">
 		</div>
 		<div class="form-group col-sm-6">
 			<label class="control-label col-sm-2" for="adresse">Code Postal :</label>
-			<input  class="form-control" type="text" value="" name="" autocomplete="on">
+			<input  class="form-control" type="text" value="" name="" autocomplete="on" id="champCP">
 		</div>
 		<div class="form-group col-sm-6">
 			<label class="control-label col-sm-2" for="adresse">Ville : </label>
-			<input  class="form-control" type="text" value="" name="" autocomplete="on">
+			<input  class="form-control" type="text" value="" name="" autocomplete="on" id="champVille">
 		</div>
 		<div class="form-group col-sm-6">
 			<label class="control-label col-sm-2" for="adresse">Telephone : </label>
-			<input  class="form-control" type="text" value="" name="" autocomplete="on">
+			<input  class="form-control" type="text" value="" name="" autocomplete="on" id="champTel">
 		</div>
 
 		<div class="col-md-6">
@@ -104,29 +104,28 @@
 			<div class="col-md-3">
 				<div class="form-group">
 					<label class="control-label" for="email">Adresse mail :</label>
-					<input  class="form-control" type="email" value="" name="">
+					<input  class="form-control" type="email" value="" name="" id="champMail">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3">
 					<div class="form-group">
 						<label class="control-label" for="password">Mot de passe : </label>
-						<input  class="form-control" type="password" value="" name="">
+						<input  class="form-control" type="password" value="" name="" id="champMDP">
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-12 col-md-offset-10">
 		<div class="form-group col-sm-1">
-			<button type="button" class="btn btn-secondary btn-lg hvr-bounce-to-right" type="submit">Envoyer</button>
+			<button type="submit" class="btn btn-secondary btn-lg hvr-bounce-to-right">Envoyer</button>
 		</div>
 		<div class="form-group col-sm-1">
-			<button type="button" class="btn btn-secondary btn-lg hvr-bounce-to-right" type="reset">Annuler</button>
+			<button type="reset" class="btn btn-secondary btn-lg hvr-bounce-to-right">Annuler</button>
 		</div>
 	</div>
 
 	</form>
 </div>
 <?php require('footer.php') ?>
-</body>
-</html>
+
