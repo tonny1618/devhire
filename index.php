@@ -40,18 +40,6 @@
     </div>
   </div>
   
-    <footer class="container-fluid">
-  <div class="row">
-    <div class="col-md-5">
-      <h2> Liens utiles </h2>
-      <p><a href="#">Liens 1</a></p>
-      <p><a href="#">Liens 2</a></p>
-      <p><a href="#">Liens 1</a></p>
-    </div>
-  </div>
-  <div class="row">
-    <p class="text-center"> © Dev'Hire</p>
-  </div>
-    </footer>
+  <?php require("footer.php");?>
    </body>
 </html>
