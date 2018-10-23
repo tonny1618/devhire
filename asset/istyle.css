@@ -199,6 +199,7 @@ footer p {
 .contrats {
 }
 
+<<<<<<< HEAD
 /*Formulaire CV */
 #formulairecv {
 background: rgb(48,49,50);
@@ -206,4 +207,14 @@ background: -moz-linear-gradient(45deg, rgba(48,49,50,1) 0%, rgba(237,87,0,1) 10
 background: -webkit-linear-gradient(45deg, rgba(48,49,50,1) 0%, rgba(237,87,0,1) 100%);
 background: linear-gradient(45deg, rgba(48,49,50,1) 0%, rgba(237,87,0,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#303132",endColorstr="#ed5700",GradientType=1);
+=======
+/*espace client*/
+#boutonRecherche2 {
+  margin-left: 95%;
+  height: 60px;
+  border-radius: 0;
+}
+.navbarform2 {
+
+>>>>>>> e373d2b8d258fb6173065c22736b553dca4b2699
 }
