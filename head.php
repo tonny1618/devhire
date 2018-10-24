@@ -18,8 +18,6 @@
    <style>
    @import url('https://fonts.googleapis.com/css?family=Lato');
 </style>
-
-<script src="formulairecv.js"></script>
 <link rel="stylesheet" href="asset/logstyle.css">
 <link rel="stylesheet" href="asset/istyle.css"/>
 </head>  

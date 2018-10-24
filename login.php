@@ -2,7 +2,7 @@
 <?php require("navbar.php")?>
 
 <div class="col-md-5 col-md-offset-5 login-box">
-	<div class="row">
+	<div class="row" id="login">
 		<a data-toggle="tab" href="Sign In"><input class="bbtn" type="button" name="" value="Sign In"></a>
 		<a data-toggle="tab" href="Sign Up"><input class="bbtn" type="button" name="" value="Sign Up"></a>
 		<div class="textbox">
