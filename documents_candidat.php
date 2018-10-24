@@ -2,20 +2,22 @@
 <?php require("navbar.php")?>
 
 <fieldset class="doc-candidat">
-	<label class="col-md-6 bvn-candidat">	
+	<label class="bvn-candidat">	
 		Bonjour "..."
 	</label>
-	<div class="col-md-4 contrats">
-		<i class="far fa-file"><a></a></i>
-		<label>
-			Contrats
-		</label>
-	</div>
-	<div class="col-md-4 col-md-offset-1 bulletin">
-		<i class="far fa-file"><a></a></i>
-		<label>
-			Bulletin de paie
-		</label>
+	<div class="col-md-12">
+		<div class="col-md-6 contrats">
+			<i class="far fa-file"><a></a></i>
+			<label>
+				Contrats
+			</label>
+		</div>
+		<div class="col-md-6 bulletin">
+			<i class="far fa-file"><a></a></i>
+			<label>
+				Bulletin de paie
+			</label>
+		</div>
 	</div>
 </fieldset>
 <?php require("footer.php");?>

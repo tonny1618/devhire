@@ -186,17 +186,6 @@ footer p {
   color: #bbbbbb;
  }
 
-/*page documents candidat*/
-.bvn-candidat {
-  font-size:20px;
-  padding-left: 50%;
-}
-
-.doc-candidat {
-}
-
-.contrats {
-}
 
 
 /*Formulaire CV */
@@ -228,10 +217,12 @@ color: white;
 
 /*Documents candidat*/
 fieldset.doc-candidat {
-  margin-top:15%;
-  margin-bottom:15%;
+  margin-top:8%;
+  margin-bottom:10%;
+  text-align: center;
 }
-
-fieldset.div.contrats {
-  margin-left:35%;
+label.bvn-candidat{
+  text-align: center;
+  font-size:24px;
+  height: 120px;
 }
