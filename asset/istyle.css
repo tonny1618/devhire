@@ -225,3 +225,13 @@ color: white;
   height: 60px;
   border-radius: 0;
 }
+
+/*Documents candidat*/
+fieldset.doc-candidat {
+  margin-top:15%;
+  margin-bottom:15%;
+}
+
+fieldset.div.contrats {
+  margin-left:35%;
+}
