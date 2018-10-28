@@ -13,7 +13,7 @@
                <ul class=" collapse navbar-collapse nav navbar-nav">
                   <li><a href='index.php'>Accueil</a></li>
                   <li><a href='#'>Espace Candidat</a></li>
-                  <li><a href='#'>Espace Entreprise</a></li>
+                  <li><a href='espace_client.php'>Espace Entreprise</a></li>
                   <li><a href='#'>Recherche</a></li>
                   <li><a href='contact.php'>Contact</a></li>
                </ul>

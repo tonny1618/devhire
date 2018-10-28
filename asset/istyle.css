@@ -226,3 +226,29 @@ label.bvn-candidat{
   font-size:24px;
   height: 120px;
 }
+
+
+/*Créer une annnonce */
+#creerannonce {
+  background-image: url('images/question-mark-1872634_1920.jpg');
+  background-size: cover;
+    color: white;
+}
+
+#creerannonce h2 {
+  text-align: center;
+}
+
+#creerannonce label {
+  font-weight: normal;
+
+}
+
+#creerannonce .btn {
+  color: #fa4414;
+  border: 1px solid #ffae00;
+}
+
+#creerannonce .btn:hover {
+  color: white;
+}
