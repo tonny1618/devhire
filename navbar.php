@@ -8,7 +8,7 @@
     </button>
             <div class="container-fluid">
                <div class="nav navbar-nav navbar-header">
-                  <a href="#" class="nav navbar-nav navbar-left"><img src="asset/images/logo.png" alt="logo"></a>
+                  <a href="index.php" class="nav navbar-nav navbar-left"><img src="asset/images/logo.png" alt="logo"></a>
                </div>
                <ul class=" collapse navbar-collapse nav navbar-nav">
                   <li><a href='index.php'>Accueil</a></li>

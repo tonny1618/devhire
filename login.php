@@ -1,16 +1,5 @@
 <?php require ("head.php") ?>
 <?php require("navbar.php")?>
-<<<<<<< HEAD
-<div id="login">
-<div class="col-md-5 col-md-offset-5 login-box">
-	<div class="row" id="login">
-		<a data-toggle="tab" href="Sign In"><input class="bbtn" type="button" name="" value="Sign In"></a>
-		<a data-toggle="tab" href="Sign Up"><input class="bbtn" type="button" name="" value="Sign Up"></a>
-		<div class="textbox">
-			<i class="fas fa-user"></i>
-			<input type="text" placeholder="Adresse mail" name="" value="">
-		</div>
-=======
 
 <div id="login">
 
@@ -22,7 +11,7 @@
 				<i class="fas fa-user"></i>
 				<input type="text" placeholder="Adresse mail" name="" value="">
 			</div>
->>>>>>> c681ff35cf1c5397f357e8e658caa0278aa8203a
+
 
 			<div class="textbox">
 				<i class="fas fa-key"></i>
