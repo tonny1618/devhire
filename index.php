@@ -1,6 +1,8 @@
 <?php require ("head.php") ?>
 <?php require("navbar.php")?>
-<?php require('searchbar.php')?>  
+<?php require('searchbar.php')?> 
+<?php require('connectbdd.php')?>   
+
        
       <div id="blocavecimages">
       
